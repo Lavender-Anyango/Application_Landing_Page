@@ -1,0 +1,91 @@
+.topnav{
+    display: flex;
+    gap: 50px;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+    
+}
+.topnav a.middle{
+    display: inline-block;
+    margin-left: 60px;
+   
+}
+
+.topnav a.home{
+   
+    float: left;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+.topnav a.register{
+    float: right;
+}
+body{
+    place-content: center;
+}
+
+.firstdiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.seconddiv{
+
+}
+.price{
+    width: 300px;
+    height: 350px;
+
+    background: linear-gradient(#bdaeb8, rgb(4, 4, 78)) ;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+
+}
+.price2{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(rgb(216, 195, 198), purple);
+    border-radius: 10px;
+    place-content: center;
+    rotate: 20deg;
+}
+.price3{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient, pink;
+    border-radius: 10px;
+    place-content: center;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.p1{
+    margin-left: 5%;
+}
+.p2{
+    margin-left: 60%;
+}
+.enddiv{
+    display: flex;
+    gap: 15%;
+    background-color: #050834;
+    text-align: center;
+    padding-left: 5%;
+}
+.enddiv h4{
+    font-size: 20px;
+    color: white;
+}
+.enddiv p{
+    color: grey;
+    font-size: 18px;
+}
