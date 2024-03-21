@@ -1,3 +1,5 @@
+*{
+}
 .topnav{
     display: flex;
     gap: 50px;
@@ -88,4 +90,80 @@ body{
 .enddiv p{
     color: grey;
     font-size: 18px;
+}
+.download{
+    display: flex;
+    gap: 10%;
+    margin-left: 18%;
+    color: #0d1364;
+}
+.download1{
+    margin-top: 10%;
+}
+.mobile{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.shade{
+    /* color: #0d1364; */
+}
+.para{
+    font-size: 40px;
+}
+.btn1{
+    padding: 12px 50px;
+    background-color: #050834;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn2{
+    padding: 12px 50px;
+    color:#050834;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.header{
+    text-align: center;
+}
+.firstdiv{
+    display: flex;
+    gap: 20%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.red{
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+.innerdiv{
+    rotate: 10deg;
+}
+.software{
+    text-align: center;
+}
+.product{
+    display: flex;
+    gap: 10%;
+    margin-left: 8% ;
+
+}
+.number{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.money{
+    display: flex;
+    gap: 10%;
+    margin-left: 8%;
+}
+.data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#rev{
+    width: 70px;
+    border-radius: 50%;
 }
