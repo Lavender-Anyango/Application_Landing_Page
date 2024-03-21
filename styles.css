@@ -23,7 +23,7 @@
 
 }
 .topnav a.register{
-    float: right;
+    margin-left: 6%;
 }
 body{
     place-content: center;
@@ -166,4 +166,42 @@ body{
 #rev{
     width: 70px;
     border-radius: 50%;
+}
+.btn3{
+    background-color: pink;
+    color: White;
+    font-size: bolder;
+    padding: 12px 45px;
+    border-radius: 10px;
+}
+.customer{
+    display: flex;
+    gap: 12%;
+    margin-left: 8%;
+}
+.div1{
+    border: 1px solid pink;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+.div2{
+    rotate: 13deg;
+}
+.btn4{
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5%;
+    padding: 12px 45px;
+    margin-bottom: 4%;
+
+}
+
+.btn5{
+    background-color: pink;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5%;
+    padding: 12px 45px;
+
 }
