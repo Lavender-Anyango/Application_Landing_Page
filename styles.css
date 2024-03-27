@@ -207,8 +207,8 @@ body{
 }
 
 
-
-@media screen and (max-width: 600px) {
+/* 768 */
+@media screen and (max-width:414px) {
     .topnav {
         flex-direction: column;
         gap: 10px;
@@ -254,7 +254,6 @@ body{
     }
 
     .download1 {
-        margin-top: 10px;
     }
 
     .mobile {
@@ -292,6 +291,5 @@ body{
 
     .btn4, .btn5 {
         padding: 8px 25px;
-        margin-bottom: 2%;
     }
 }
